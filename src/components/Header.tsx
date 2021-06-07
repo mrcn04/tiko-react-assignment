@@ -20,7 +20,7 @@ export default function Header({ name, path }: IHeader): JSX.Element {
   };
 
   return (
-    <div className="d-flex justify-content-between aling-items-centers flex-wrap">
+    <div className="d-flex justify-content-between align-items-baseline flex-wrap">
       <span>Current User: {context?.user?.email}</span>
       <div>
         <Button
